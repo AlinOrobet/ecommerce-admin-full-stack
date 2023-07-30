@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useEffect } from "react";
 
@@ -12,9 +12,7 @@ export default function SetupPage() {
     if (!isOpen) {
       onOpen();
     }
-  }, [isOpen, onOpen])
+  }, [isOpen, onOpen]);
 
-  return (
-    <div>Root page</div>
-  )
+  return null;
 }
